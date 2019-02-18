@@ -40,6 +40,7 @@ Excerises
 - argument order, data structure last
 - show type signature reduction
 - something is a list is not enough(list of what)?
+- pointfree style
 
 Excercises:
 - create new functions by partially applying existing ones
@@ -48,7 +49,6 @@ Excercises:
 ### 5. Composing functions
 
 - composing two functions
-- pointfree style
 
 
 Excercises:
