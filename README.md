@@ -2,7 +2,7 @@
 
 ## Absolute basics
 
-### 1. Absolute basics
+### 1. First class citizens functions
 
 1. Using functions
 - functions are first class citizens
