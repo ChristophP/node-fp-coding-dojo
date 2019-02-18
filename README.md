@@ -10,7 +10,7 @@ Excercise:
 
 Make a function more flexible by extending thing to take a callback.
 
-## 2. pure functions and immutabilty
+### 2. pure functions and immutabilty
 
 - rewrite same function, without side effects
 
@@ -25,7 +25,7 @@ side effects are
     querying the DOM
     accessing system state
 
-3. Type signatures,
+### 3. Type signatures,
 
 - Hindley Milner
 
@@ -33,7 +33,7 @@ Excerises
 - add type signatures to functions
 - make type signature more generic
 
-4. Currying and partial application
+### 4. Currying and partial application
 
 - currying enables partial application,
 - create new functions by applying only some of the arguments
@@ -45,7 +45,7 @@ Excercises:
 - create new functions by partially applying existing ones
 - write the type signatures
 
-5. Composing functions
+### 5. Composing functions
 
 - composing two functions
 - pointfree style
@@ -60,7 +60,7 @@ Excercises:
 
 ## Alterenatives, Optional Values and Error Handling
 
-6. Union type
+### 6. Union type
 
 - What is a union type
 
@@ -69,7 +69,7 @@ Excercise:
 - Weekday example
 - Create your own boolean type
 
-7. Maybe
+### 7. Maybe
 
 - explicit non-existance
 - get first element from a list
