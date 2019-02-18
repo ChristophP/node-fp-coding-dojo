@@ -1,0 +1,26 @@
+{
+  "name": "fp-coding-dojo",
+  "version": "1.0.0",
+  "description": "Excercises for learning functional programming with JS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChristophP/node-fp-coding-dojo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ChristophP/node-fp-coding-dojo/issues"
+  },
+  "homepage": "https://github.com/ChristophP/node-fp-coding-dojo#readme",
+  "dependencies": {
+    "funpro": "^0.1.11",
+    "ramda": "^0.26.1"
+  },
+  "devDependencies": {
+    "jest": "^24.1.0"
+  }
+}
