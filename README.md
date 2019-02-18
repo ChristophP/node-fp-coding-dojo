@@ -1,6 +1,6 @@
 # Node FP Coding Dojo
 
-## Absolute basics
+## 1. Absolute basics
 
 1. Using functions
 - functions are first class citizens
@@ -10,7 +10,7 @@ Excercise:
 
 Make a function more flexible by extending thing to take a callback.
 
-2. pure functions and immutabilty
+## 2. pure functions and immutabilty
 
 - rewrite same function, without side effects
 
