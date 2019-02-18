@@ -1,13 +1,18 @@
 // using functions as arguments
 const R = require('ramda')
 
-const identity = a => a;
+// 1. implement a function that takes a function as argument
+const transformArray = Function.prototype;
 
-const array = map(identity, ['this', 'should', 'be', 'uppercase'])
+// 2. implement a that returns a function
+const makeIncrementer = Function.prototype;
 
-map
 
+// 3. implement your own identity function
+const identity = Function.prototype;
 
 module.exports = {
-  array,
+  transformArray,
+  makeIncrementer,
+  identity
 };
