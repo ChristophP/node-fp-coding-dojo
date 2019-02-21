@@ -62,23 +62,50 @@ Excercises:
 
 ## Alterenatives, Optional Values and Error Handling
 
-### 6. Union type
-
-- What is a union type
-
-
-Excercise:
-- Weekday example
-- Create your own boolean type
-
-### 7. Maybe
+### 6. Maybe
 
 - explicit non-existance
 - get first element from a list
+- ... and map away
+- access object properties
+- handling nested Maybe's, chaining
 
 Excercise:
 - parse an integer
 - combining two maybes
 - refactoring double match, to use map or chain
+- short circuiting
+- passing a default
 
-8. Error Handling
+### 7. Error Handling
+
+- Result type
+- mapping result type
+- encapsulating errors
+
+Excercise:
+- safe json parse
+- safe
+
+
+### 8. IO
+
+packaging side effects into a Task
+- mapping the task
+- pulling the trigger
+
+Excercise:
+- fetch something
+- then map
+
+- map two
+
+
+9. Putting everything together
+
+Write a small application using the learned concept, which does the following
+- fetch something (Task)
+- parse a json (Result)
+- access some properties (Maybe)
+- compute the amount of starts
+- pull the trigger
