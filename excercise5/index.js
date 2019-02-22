@@ -1,7 +1,8 @@
+/* eslint-disable no-unused-vars */
 const { compose } = require("ramda");
 
 // myCompose :: (a -> b) -> (b -> c) -> (a -> c)
-// mathematically this is f ∘ g
+// mathematically this is f ∘ g
 const myCompose = Function.prototype;
 
 // write a function that turns dates like 'YYYY-MM-DD' to 'DD/MM/YYYY'
