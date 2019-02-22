@@ -57,6 +57,7 @@ Excercises:
 - rewrite things in point-free style where possible
 - compose existing functions instead of using new functions
 - write the type signatures
+- expression over statements
 
 -- BREAK
 
@@ -101,7 +102,7 @@ Excercise:
 - map two
 
 
-9. Putting everything together
+### 9. Putting everything together
 
 Write a small application using the learned concept, which does the following
 - fetch something (Task)

@@ -1,4 +1,9 @@
-const { myCompose, dateTransform, sumEvenNumbers } = require("./index");
+const {
+  myCompose,
+  dateTransform,
+  sumEvenNumbers,
+  clampBetween10and18
+} = require("./index");
 
 describe("myCompose", () => {
   test("composes two functions", () => {
@@ -21,5 +26,13 @@ describe("dateTransform", () => {
 describe("sumEvenNumbers", () => {
   test("computes the sum of even numbers", () => {
     expect(sumEvenNumbers([1, 2, 3, 4])).toBe(6);
+  });
+});
+
+describe("clampBetween10and18", () => {
+  test("clamps a value between 10 and 18", () => {
+    expect(clampBetween10and18(7)).toBe(10);
+    expect(clampBetween10and18(100)).toBe(18);
+    expect(clampBetween10and18(11)).toBe(11);
   });
 });
