@@ -1,5 +1,16 @@
 # Node FP Coding Dojo
 
+WorkFlow:
+
+```
+git clone <this-repo>
+npm install
+
+# for each excercise
+cd excerciseN
+npm test -- $(pwd) --watch
+```
+
 ## Absolute basics
 
 ### 1. First class citizens functions
@@ -104,7 +115,7 @@ Excercise:
 
 ### 9. Putting everything together
 
-Write a small application using the learned concept, which does the following
+Write a small application using the learned concepts, which does the following
 - fetch something (Task)
 - parse a json (Result)
 - access some properties (Maybe)
