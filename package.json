@@ -19,6 +19,7 @@
   "homepage": "https://github.com/ChristophP/node-fp-coding-dojo#readme",
   "dependencies": {
     "funpro": "^0.1.11",
+    "public-ip": "^3.0.0",
     "ramda": "^0.26.1"
   },
   "devDependencies": {

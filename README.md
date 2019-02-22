@@ -110,3 +110,5 @@ Write a small application using the learned concept, which does the following
 - access some properties (Maybe)
 - compute the amount of starts
 - pull the trigger
+
+You can use ramda and funpro and import any functions from the previous excercises
