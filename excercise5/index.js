@@ -1,7 +1,7 @@
 /* eslint-disable no-unused-vars */
 const { compose } = require("ramda");
 
-// myCompose :: (a -> b) -> (b -> c) -> (a -> c)
+// myCompose :: (b -> c) -> (a -> b) -> (a -> c)
 // mathematically this is f ∘ g
 const myCompose = Function.prototype;
 

@@ -12,8 +12,7 @@ describe("myCompose", () => {
 
     const composedFn = myCompose(g, f);
 
-    expect(composedFn("Peter!")).toBe(true);
-    expect(g(f("Peter"))).toBe(true);
+    expect(composedFn("Peter!")).toBe(g(f("Peter!")));
   });
 });
 
